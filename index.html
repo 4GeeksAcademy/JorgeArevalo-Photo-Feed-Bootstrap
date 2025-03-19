@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-expand-md navbar-collapse-sm bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand ms-5" href="#"><i class="fa-brands fa-instagram"></i>    Instagram</a>
+          
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <button type="button" class="btn btn-success ms-auto me-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Create a new post
+          </button>
+          
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">Create a new post</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                 <p>Caption:</p>
+                 <textarea rows="5" cols="33" style="width: 100%;">
+                  </textarea>
+                  <div>
+                  <button type="button" class="btn btn-outline-secondary text-dark mt-2" data-bs-dismiss="modal"><i class="fa-solid fa-camera"></i></button>
+                  <button type="button" class="btn btn-outline-secondary text-dark mt-2" data-bs-dismiss="modal"><i class="fa-solid fa-location-dot"></i></button>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-success">Publish</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="btn-group me-5">
+            <button class="btn btn-secondary dropdown-toggle " type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="fa-solid fa-gear"></i>
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end">
+              <li><a class="dropdown-item" href="#">Profile</a></li>
+              <li><a class="dropdown-item" href="#">Accessibility</a></li>
+              <li><a class="dropdown-item" href="#">Privacy of data</a></li>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item text-danger" href="#">Log out</a>              
+            </ul>
+            </div>
+          </div>
+          </div>
+        </div>
+       
+      </nav>
+      <div class="container-fluid mt-3">
+      <ul class="list-group-flush nav nav-pills d-flex justify-content-center">
+        <li class="nav-item">
+            
+             <button class="nav-link active bg-white text-dark link-primary" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">
+              <i class="fas fa-th fa-lg"></i>
+        </li>
+        <li class="nav-item">
+            <button class="nav-link bg-white text-dark link-primary" id="gallery-tab" data-bs-toggle="tab" data-bs-target="#gallery-tab-pane" type="button" role="tab" aria-controls="gallery-tab-pane" aria-selected="false">
+              <i class="fas fa-square fa-lg"></i>
+            </button>
+        </li>
+      </ul>
+      <div class="tab-content mt-5" id="myTabContent">
+        <div class="tab-pane fade show active container-fluid" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0" style="width: 100%;">
+           <div class="row">
+            <img class="col-xl-4 col-lg-4 col-md-6 col-sm-12 mt-4" src="https://static.wikia.nocookie.net/leagueoflegends/images/4/4b/Aspecto_centrado_-_Zed_Base.jpg/revision/latest/scale-to-width-down/1200?cb=20231113042334&path-prefix=es">
+            <img class="col-xl-4 col-lg-4 col-md-6 col-sm-12 mt-4" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Shen_0.jpg">
+            <img class="col-xl-4 col-lg-4 col-md-6 col-sm-12 mt-4" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Akali_0.jpg">
+            <img class="col-xl-4 col-lg-4 col-md-6 col-sm-12 mt-4" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Kayn_0.jpg">
+            <img class="col-xl-4 col-lg-4 col-md-6 col-sm-12 mt-4" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Jhin_0.jpg">
+            <img class="col-xl-4 col-lg-4 col-md-6 col-sm-12 mt-4" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Varus_0.jpg">
+            <img class="col-xl-4 col-lg-4 col-md-6 col-sm-12 mt-4" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aatrox_0.jpg">
+            <img class="col-xl-4 col-lg-4 col-md-6 col-sm-12 mt-4" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/MasterYi_0.jpg">
+            <img class="col-xl-4 col-lg-4 col-md-6 col-sm-12 mt-4" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Syndra_0.jpg">
+           </div> 
+        </div>
+      <div class="tab-pane fade container-fluid" id="gallery-tab-pane" role="tabpanel" aria-labelledby="gallery-tab" tabindex="0" style="width: 100%;">
+        <div class="d-flex justify-content-center card p-0 mx-auto" style="width: 30%;">
+                <div class="d-flex align-items-center justify-content-between"><h3 class="m-3">Zed</h3><p  class="m-3">1/9</p></div>
+                <img src="https://static.wikia.nocookie.net/leagueoflegends/images/4/4b/Aspecto_centrado_-_Zed_Base.jpg/revision/latest/scale-to-width-down/1200?cb=20231113042334&path-prefix=es">
+                <div><p class="m-3">Utterly ruthless and without mercy, Zed is the leader of the Order of Shadow, an organization he created with the intent of militarizing Ionia's magical and martial traditions to drive out Noxian invaders. During the war, desperation led him to unlock the secret shadow form—a malevolent spirit magic as dangerous and corrupting as it is powerful. Zed has mastered all of these forbidden techniques to destroy anything he sees as a threat to his nation, or his new order.</p></div>
+        </div>
+        <div class="d-flex justify-content-center card p-0 mx-auto mt-5" style="width: 30%;">
+          <div class="d-flex align-items-center justify-content-between"><h3 class="m-3">Shen</h3><p  class="m-3">2/9</p></div>
+          <img src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Shen_0.jpg">
+          <div><p class="m-3">Among the secretive, Ionian warriors known as the Kinkou, Shen serves as their leader, the Eye of Twilight. He longs to remain free from the confusion of emotion, prejudice, and ego, and walks the unseen path of dispassionate judgment between the spirit realm and the physical world. Tasked with enforcing the equilibrium between them, Shen wields blades of steel and arcane energy against any who would threaten it.</p></div>
+        </div>
+        <div class="d-flex justify-content-center card p-0 mx-auto mt-5" style="width: 30%;">
+          <div class="d-flex align-items-center justify-content-between"><h3 class="m-3">Akali</h3><p  class="m-3">3/9</p></div>
+          <img src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Akali_0.jpg">
+          <div><p class="m-3">Abandoning the Kinkou Order and her title of the Fist of Shadow, Akali now strikes alone, ready to be the deadly weapon her people need. Though she holds onto all she learned from her master Shen, she has pledged to defend Ionia from its enemies, one kill at a time. Akali may strike in silence, but her message will be heard loud and clear: fear the assassin with no master</p></div>
+        </div>
+        <div class="d-flex justify-content-center card p-0 mx-auto mt-5" style="width: 30%;">
+          <div class="d-flex align-items-center justify-content-between"><h3 class="m-3">Kayn</h3><p  class="m-3">4/9</p></div>
+          <img src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Kayn_0.jpg">
+          <div><p class="m-3">A peerless practitioner of lethal shadow magic, Shieda Kayn battles to achieve his true destiny—to one day lead the Order of Shadow into a new era of Ionian supremacy. He wields the sentient darkin weapon Rhaast, undeterred by its creeping corruption of his body and mind. There are only two possible outcomes: either Kayn bends the weapon to his will... or the malevolent blade consumes him completely, paving the way for the destruction of all Runeterra.</p></div>
+        </div>
+        <div class="d-flex justify-content-center card p-0 mx-auto mt-5" style="width: 30%;">
+          <div class="d-flex align-items-center justify-content-between"><h3 class="m-3">Jhin</h3><p  class="m-3">5/9</p></div>
+          <img src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Jhin_0.jpg">
+          <div><p class="m-3">Jhin is a meticulous criminal psychopath who believes murder is art. Once an Ionian prisoner, but freed by shadowy elements within Ionia's ruling council, the serial killer now works as their cabal's assassin. Using his gun as his paintbrush, Jhin creates works of artistic brutality, horrifying victims and onlookers. He gains a cruel pleasure from putting on his gruesome theater, making him the ideal choice to send the most powerful of messages: terror.</p></div>
+        </div>
+        <div class="d-flex justify-content-center card p-0 mx-auto mt-5" style="width: 30%;">
+          <div class="d-flex align-items-center justify-content-between"><h3 class="m-3">Varus</h3><p  class="m-3">6/9</p></div>
+          <img src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Varus_0.jpg">
+          <div><p class="m-3">One of the ancient darkin, Varus was a deadly killer who loved to torment his foes, driving them almost to insanity before delivering the killing arrow. He was imprisoned at the end of the Great Darkin War, but escaped centuries later in the remade flesh of two Ionian hunters—they had unwittingly released him, cursed to bear the bow containing his bound essence. Varus now seeks out those who trapped him, in order to enact his brutal vengeance, but the mortal souls within still resist him every step of the way.</p></div>
+        </div>
+        <div class="d-flex justify-content-center card p-0 mx-auto mt-5" style="width: 30%;">
+          <div class="d-flex align-items-center justify-content-between"><h3 class="m-3">Aatrox</h3><p  class="m-3">7/9</p></div>
+          <img src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aatrox_0.jpg">
+          <div><p class="m-3">Once honored defenders of Shurima against the Void, Aatrox and his brethren would eventually become an even greater threat to Runeterra, and were defeated only by cunning mortal sorcery. But after centuries of imprisonment, Aatrox was the first to find freedom once more, corrupting and transforming those foolish enough to try and wield the magical weapon that contained his essence. Now, with stolen flesh, he walks Runeterra in a brutal approximation of his previous form, seeking an apocalyptic and long overdue vengeance.</p></div>
+        </div>
+        <div class="d-flex justify-content-center card p-0 mx-auto mt-5" style="width: 30%;">
+          <div class="d-flex align-items-center justify-content-between"><h3 class="m-3">Master Yi</h3><p  class="m-3">8/9</p></div>
+          <img src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/MasterYi_0.jpg">
+          <div><p class="m-3">Master Yi has tempered his body and sharpened his mind, so that thought and action have become almost as one. Though he chooses to enter into violence only as a last resort, the grace and speed of his blade ensures resolution is always swift. As one of the last living practitioners of the Ionian art of Wuju, Yi has devoted his life to continuing the legacy of his people—scrutinizing potential new disciples with the Seven Lenses of Insight to identify the most worthy among them.</p></div>
+        </div>
+        <div class="d-flex justify-content-center card p-0 mx-auto mt-5 mb-5" style="width: 30%;">
+          <div class="d-flex align-items-center justify-content-between"><h3 class="m-3">Syndra</h3><p  class="m-3">9/9</p></div>
+          <img src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Syndra_0.jpg">
+          <div><p class="m-3">Syndra is a fearsome Ionian mage with incredible power at her command. As a child, she disturbed the village elders with her reckless and wild magic. She was sent away to be taught greater control, but eventually discovered her supposed mentor was restraining her abilities. Forming her feelings of betrayal and hurt into dark spheres of energy, Syndra has sworn to destroy all who would try to control her.</p></div>
+        </div>
+      </div>
+
+      </div>
+      </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
